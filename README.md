@@ -9,4 +9,5 @@
 8. sudo usermod -aG docker $USER && newgrp docker
 9. install minikube
 10. sudo apt install kubectl
-11. 
+11. https://thelinuxcode.com/install-nvm-nodejs-raspberry-pi/
+12.

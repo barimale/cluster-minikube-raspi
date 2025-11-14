@@ -1,4 +1,6 @@
 # cluster-minikube-raspi
 1. Install raspberry PI OS 64bits
 2. Enable SSH
-3. 
+3. sudo apt install git-all
+4. copy repository from github
+5. 

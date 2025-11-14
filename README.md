@@ -4,4 +4,5 @@
 3. sudo apt install git-all
 4. copy repository from github
 5. mkdir k8s catalog in the main directory
-6. 
+6. install docker (sudo apt install docker.io)
+7. 

@@ -12,4 +12,25 @@
 11. https://thelinuxcode.com/install-nvm-nodejs-raspberry-pi/
 12. docker build -t barimale/albergue-oporto .
 13. https://blog.logrocket.com/deploy-react-app-kubernetes-using-docker/
+14. Commands:
+sudo systemctl restart docker
 
+minikube start
+
+docker build -t barimale/albergue-oporto .
+
+docker run -d -p 3000:3000 barimale/albergue-oporto
+
+docker push barimale/albergue-oporto:latest
+
+kubectl create namespace albergue-oporto
+
+kubectl config set-context --current --namespace=albergue-oporto
+
+kubectl apply -f deployment.yaml
+
+kubectl apply -f load-balancer.yaml
+
+minikube service albergue-oporto --url
+
+minikube service list

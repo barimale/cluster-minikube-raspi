@@ -10,4 +10,6 @@
 9. install minikube
 10. sudo apt install kubectl
 11. https://thelinuxcode.com/install-nvm-nodejs-raspberry-pi/
-12.
+12. docker build -t barimale/albergue-oporto .
+13. https://blog.logrocket.com/deploy-react-app-kubernetes-using-docker/
+

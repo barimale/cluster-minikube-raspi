@@ -37,3 +37,4 @@ minikube service list
 15. open firewall ports WIP
 sudo ufw allow 32111/tcp
 16. sudo systemctl enable minikube.service <- cale rozwiazanie z microsoft copilot.
+17. https://ubuntu.com/tutorials/install-a-local-kubernetes-with-microk8s?_ga=2.176322918.2113770794.1763318789-937252247.1763318789#5-host-your-first-service-in-kubernetes

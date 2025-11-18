@@ -23,6 +23,7 @@ steps:
   displayName: 'Install snap'
 - script: |
     sudo snap install microk8s --classic
-  displayName: 'Install microk8s'
+    sudo apt-get install kubectl -y
+  displayName: 'Install microk8s and kubectl'
   continueOnError: true
 

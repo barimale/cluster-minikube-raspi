@@ -9,7 +9,7 @@ steps:
     sudo apt install git-all -y
   displayName: 'Install Git'
 - script: |
-    sudo apt install docker.io -y
+    #sudo apt install docker.io -y
     sudo usermod -aG docker $USER && newgrp docker
   displayName: 'npm build'
 - script: |

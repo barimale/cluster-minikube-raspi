@@ -16,7 +16,7 @@ steps:
     wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
   displayName: 'Install nvm'
 - script: |
-    sudo apt-get install snap -y
+    sudo apt-get install snapd -y
     source ~/.bashrc
   displayName: 'Install snap'
 - script: |

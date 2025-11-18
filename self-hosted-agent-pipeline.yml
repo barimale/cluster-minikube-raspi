@@ -17,6 +17,7 @@ steps:
   displayName: 'Install nvm'
 - script: |
     sudo apt-get install snap -y
+    source ~/.bashrc
   displayName: 'Install snap'
 - script: |
     sudo snap install microk8s --classic
